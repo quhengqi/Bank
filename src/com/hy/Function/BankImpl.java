@@ -84,6 +84,6 @@ public class BankImpl implements Bank {
 		return money;
 	}
 	public static void main(String[] args) {
-		System.out.println(new BankImpl().geyMoney("6212233500014424515", "123456",10000d).getMessage());
+		System.out.println(new BankImpl().queryMoney("6212233500014424515", "123456"));
 	}
 }
